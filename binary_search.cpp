@@ -6,7 +6,7 @@ int randint(int min, int max);
 
 int main()
 {
-    srand(time(NULL));
+    srand(time(nullptr));
 
     int guess;
     int limit = 10;
